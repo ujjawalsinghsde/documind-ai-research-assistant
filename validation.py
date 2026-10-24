@@ -105,6 +105,6 @@ if __name__ == "__main__":
 
     for label, answer in [("Good answer", good_answer), ("Made-up answer", made_up_answer)]:
         result = validate_answer(test_question, test_context, answer)
-        print(f"\n{label}: {answer}")
-        print(f"Verdict: {result['verdict']}")
-        print(f"Reason: {result['reason']}")
+        print(f"\n{label} : {answer}")
+        print(f"Verdict : {result['verdict']}")
+        print(f"Reason : {result['reason']}")
